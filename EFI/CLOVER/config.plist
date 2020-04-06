@@ -84,7 +84,7 @@
 				<key>FixMutex</key>
 				<false/>
 				<key>FixRTC</key>
-				<false/>
+				<true/>
 				<key>FixRegions</key>
 				<false/>
 				<key>FixS3D</key>
@@ -94,7 +94,7 @@
 				<key>FixSBUS</key>
 				<false/>
 				<key>FixShutdown</key>
-				<false/>
+				<true/>
 				<key>FixTMR</key>
 				<false/>
 				<key>FixUSB</key>
@@ -145,10 +145,14 @@
 	<dict>
 		<key>Arguments</key>
 		<string>slide=129</string>
+		<key>CustomLogo</key>
+		<false/>
 		<key>Debug</key>
 		<false/>
 		<key>DefaultVolume</key>
 		<string>LastBootedVolume</string>
+		<key>Fast</key>
+		<true/>
 		<key>NeverHibernate</key>
 		<false/>
 		<key>NoEarlyProgress</key>
@@ -157,15 +161,13 @@
 		<false/>
 		<key>SkipHibernateTimeout</key>
 		<false/>
-		<key>Timeout</key>
-		<integer>3</integer>
 		<key>XMPDetection</key>
 		<false/>
 	</dict>
 	<key>BootGraphics</key>
 	<dict>
 		<key>UIScale</key>
-		<integer>2</integer>
+		<integer>0</integer>
 	</dict>
 	<key>Devices</key>
 	<dict>
@@ -174,7 +176,7 @@
 			<key>AFGLowPowerState</key>
 			<false/>
 			<key>Inject</key>
-			<string>No</string>
+			<integer>5</integer>
 			<key>ResetHDA</key>
 			<false/>
 		</dict>
@@ -188,6 +190,21 @@
 				<data>cJ0AAA==</data>
 				<key>layout-id</key>
 				<data>DwAAAA==</data>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
+			<dict>
+				<key>AAPL,ig-platform-id</key>
+				<data>AwCSPg==</data>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,2,0</string>
+				<key>device-id</key>
+				<data>kj4AAA==</data>
+				<key>device_type</key>
+				<string>Display controller</string>
+				<key>hda-gfx</key>
+				<string>onboard-2</string>
+				<key>model</key>
+				<string>Intel UHD Graphics 630 (Desktop)</string>
 			</dict>
 		</dict>
 		<key>USB</key>
@@ -232,7 +249,7 @@
 			<key>Legacy</key>
 			<false/>
 			<key>Linux</key>
-			<true/>
+			<false/>
 			<key>Tool</key>
 			<true/>
 		</dict>
@@ -401,35 +418,35 @@
 	<key>SMBIOS</key>
 	<dict>
 		<key>BiosReleaseDate</key>
-		<string>04/22/2019</string>
+		<string>02/17/2020</string>
 		<key>BiosVendor</key>
 		<string>Apple Inc.</string>
 		<key>BiosVersion</key>
-		<string>IMP11.88Z.F000.B00.1904222000</string>
+		<string>IM191.88Z.F000.B00.2002172336</string>
 		<key>Board-ID</key>
-		<string>Mac-7BA5B2D9E42DDD94</string>
+		<string>Mac-63001698E7A34814</string>
 		<key>BoardManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>BoardSerialNumber</key>
-		<string>C02748902CDJG36UE</string>
+		<string>C029255014NKGQGCB</string>
 		<key>BoardType</key>
 		<integer>10</integer>
 		<key>BoardVersion</key>
 		<string>1.0</string>
 		<key>ChassisAssetTag</key>
-		<string>iMacPro-Aluminum</string>
+		<string>iMac-Aluminum</string>
 		<key>ChassisManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>ChassisType</key>
 		<string>0x09</string>
 		<key>EfiVersion</key>
-		<string>220.260.170.0.0</string>
+		<string>1037.100.345.0.0</string>
 		<key>Family</key>
-		<string>iMac Pro</string>
+		<string>iMac</string>
 		<key>FirmwareFeatures</key>
-		<string>0xFD8FF53F</string>
+		<string>0xFD8FF576</string>
 		<key>FirmwareFeaturesMask</key>
-		<string>0xFF9FFF3F</string>
+		<string>0xFFDFFF7F</string>
 		<key>LocationInChassis</key>
 		<string>Part Component</string>
 		<key>Manufacturer</key>
@@ -437,13 +454,13 @@
 		<key>Mobile</key>
 		<false/>
 		<key>PlatformFeature</key>
-		<string>0xFFFF</string>
+		<string>0x22</string>
 		<key>ProductName</key>
-		<string>iMacPro1,1</string>
+		<string>iMac19,2</string>
 		<key>SerialNumber</key>
-		<string>C02VRTZFHX87</string>
+		<string>C02YW03TJWDW</string>
 		<key>SmUUID</key>
-		<string>EF177C64-8AE8-4FDD-9C3E-C0454FC0409E</string>
+		<string>66C6EC15-D07C-451E-B91E-DA26AA57AD3C</string>
 		<key>Version</key>
 		<string>1.0</string>
 	</dict>
