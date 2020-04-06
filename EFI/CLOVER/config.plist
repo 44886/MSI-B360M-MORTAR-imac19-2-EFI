@@ -418,17 +418,17 @@
 	<key>SMBIOS</key>
 	<dict>
 		<key>BiosReleaseDate</key>
-		<string>02/17/2020</string>
+		<string>12/18/2019</string>
 		<key>BiosVendor</key>
 		<string>Apple Inc.</string>
 		<key>BiosVersion</key>
-		<string>IM191.88Z.F000.B00.2002172336</string>
+		<string>IM191.88Z.F000.B00.1912181732</string>
 		<key>Board-ID</key>
 		<string>Mac-63001698E7A34814</string>
 		<key>BoardManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>BoardSerialNumber</key>
-		<string>C029255014NKGQGCB</string>
+		<string>C02902207GUKGQGCB</string>
 		<key>BoardType</key>
 		<integer>10</integer>
 		<key>BoardVersion</key>
@@ -440,7 +440,7 @@
 		<key>ChassisType</key>
 		<string>0x09</string>
 		<key>EfiVersion</key>
-		<string>1037.100.345.0.0</string>
+		<string>1037.80.34.0.0</string>
 		<key>Family</key>
 		<string>iMac</string>
 		<key>FirmwareFeatures</key>
@@ -458,9 +458,9 @@
 		<key>ProductName</key>
 		<string>iMac19,2</string>
 		<key>SerialNumber</key>
-		<string>C02YW03TJWDW</string>
+		<string>C02Y33ZDJWDW</string>
 		<key>SmUUID</key>
-		<string>66C6EC15-D07C-451E-B91E-DA26AA57AD3C</string>
+		<string>51E831CC-FA97-45E4-98F8-2CCB50B23653</string>
 		<key>Version</key>
 		<string>1.0</string>
 	</dict>
