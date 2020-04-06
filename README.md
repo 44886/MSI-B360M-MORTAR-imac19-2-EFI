@@ -47,6 +47,6 @@
 
 
 
-![图片加载失败](/44886/MSI-B360M-MORTAR-imac19-2-EFI/ScreenShot/framebuffer.jpg)
+![图片加载失败](ScreenShot/framebuffer.jpg)
 
-![图片加载失败](/44886/MSI-B360M-MORTAR-imac19-2-EFI/ScreenShot/framebufferpatch.jpg)
+![图片加载失败](ScreenShot/framebufferpatch.jpg)
